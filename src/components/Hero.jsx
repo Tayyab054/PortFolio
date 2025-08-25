@@ -4,10 +4,10 @@ import { Typewriter } from "react-simple-typewriter";
 function Hero() {
   return (
     <div className='bg-black text-white text-center py-16'>
-      <img src={timage} alt="" className='mx-auto mb-8 w-52 h-52 rounded-full object-top object-cover transform  transform transition-transform duration-500 hover:scale-110' />
-       <h1 className="text-3xl font-bold">
+      <img src={timage} alt="" className='mx-auto mb-8 w-52 h-52 rounded-full object-top object-cover transform transition-transform duration-500 hover:scale-110' />
+       <h1 className="text-4xl font-bold">
       I am{" "}
-      <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
+      <span className="text-transparent bg-clip-text bg-gradient-to-r text-4xl from-green-400 to-blue-500">
         <Typewriter
           words={["Full-Stack Developer", "Designer",]}
           loop={0}
