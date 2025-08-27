@@ -1,5 +1,5 @@
 import React from 'react'
-import timage from '../assets/ta.png'
+import timage from '../assets/ta1.jpeg'
 import { Typewriter } from "react-simple-typewriter";
 function Hero() {
   return (
