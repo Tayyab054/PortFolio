@@ -57,7 +57,7 @@ const project = [
         id: 6,
         name: "AirPlane Management System",
         tecno: "C# Console base",
-        image:airplan,
+        image: airplan,
         githubsource: "https://github.com/Tayyab054/Bank-Management-system",
         githublive: "https://github.com/Tayyab054/Bank-Management-system"
 
@@ -66,7 +66,7 @@ const project = [
         id: 7,
         name: "Bank Management System",
         tecno: "Window Form C#",
-        image:bankcsharp,
+        image: bankcsharp,
         githubsource: "https://github.com/Tayyab054/Bank-Management-system",
         githublive: "https://github.com/Tayyab054/Bank-Management-system"
 
@@ -74,10 +74,10 @@ const project = [
 ];
 function Projects() {
     return (
-        <div className='bg-black text-white px-2 py-20 lg:px-20  text-center' id="Projects">
-            <div className='container mx-auto md:px-16 lg:px-24'>
-                <h2 className='text-xl font-bold text-center mb-12 sm:text-4xl'>My Projects</h2>
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
+        <div className='bg-black text-white  px-2 py-20 lg:px-20 text-center' id="Projects">
+            <div className='container mx-auto px-8 md:px-16 lg:px-24'>
+                <h2 className='text-xl font-bold  mb-12 sm:text-4xl'>My Projects</h2>
+                <div className='grid grid-rows md:grid-rows-2 lg:grid-cols-3 gap-8'>
                     {project.map(projects => (
                         <div key={projects.id}
                             className='bg-gray-900 rounded-lg  flex flex-col justify-between  transform transition-transform duration-300 hover:scale-105'>
@@ -85,8 +85,8 @@ function Projects() {
                             <h3 className=' bg-gradient-to-r from-gray-600 to-pink-600 bg-clip-text  text-transparent'>{projects.name}</h3>
                             <p className=' bg-gradient-to-r from-yellow-600 to-pink-600 bg-clip-text text-transparent '>{projects.tecno}</p>
                             <div className='justify-between space-x-24 space-y-2.5 '>
-                                <button className='bg-teal-900  rounded-lg hover:bg-amber-400  '><a  href={projects.githubsource} target='./blank' className='px-2'>Source Code</a></button>
-                                <button className='bg-teal-900  rounded-lg hover:bg-amber-400 ' ><a href={projects.githublive} target='./blank'  className='px-2'>View Live</a></button>
+                                <button className='bg-teal-900  rounded-lg hover:bg-amber-400  '><a href={projects.githubsource} target='./blank' className='px-2'>Source Code</a></button>
+                                <button className='bg-teal-900  rounded-lg hover:bg-amber-400 ' ><a href={projects.githublive} target='./blank' className='px-2'>View Live</a></button>
                             </div>
                         </div>
                     ))}

@@ -8,11 +8,11 @@ function Navbar() {
         <div className="space-x-6 ">
           <a href="#home" className="hover:text-teal-300">Home</a>
           <a href="#About" className="hover:text-teal-300">About</a>
-          <a href="#Skill" className="hover:text-teal-300">Skill</a>
+          <a href="#Servecies" className="hover:text-teal-300">Servecies</a>
           <a href="#Projects" className="hover:text-teal-300">Projects</a>
           <a href="#Contact" className="hover:text-teal-300">Contact</a>
         </div>
-        <button className="bg-gradient-to-t from-green-500 to-blue-500 hidden md:inline transform-3d transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full">Contact Me</button>
+        <button className="bg-gradient-to-t from-green-500 to-blue-500 hidden md:inline transform-3d transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full"href="#Contact">Contact Me</button>
       </div>
     </nav>
   );
