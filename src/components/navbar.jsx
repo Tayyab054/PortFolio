@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 function Navbar() {
-  const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="bg-black text-white px-8 md:px-18 lg:px-32">
+    <nav className="fixed left-0 w-full bg-black text-white shadow-md z-50 px-8 md:px-18 lg:px-32">
       <div className="container flex py-2 justify-center md:justify-between items-center mx-auto">
         <div className=" text-2xl font-bold hidden md:inline ">Tayyab Ali</div>
         <div className="space-x-6 ">
+          <div><img src="" alt="" /></div>
           <a href="#home" className="hover:text-teal-300">Home</a>
           <a href="#About" className="hover:text-teal-300">About</a>
           <a href="#Servecies" className="hover:text-teal-300">Servecies</a>

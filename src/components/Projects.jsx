@@ -77,14 +77,14 @@ function Projects() {
         <div className='bg-black text-white  px-2 py-20 lg:px-20 text-center' id="Projects">
             <div className='container mx-auto px-8 md:px-16 lg:px-24'>
                 <h2 className='text-xl font-bold  mb-12 sm:text-4xl'>My Projects</h2>
-                <div className='grid grid-rows md:grid-rows-2 lg:grid-cols-3 gap-8'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
                     {project.map(projects => (
                         <div key={projects.id}
                             className='bg-gray-900 rounded-lg  flex flex-col justify-between  transform transition-transform duration-300 hover:scale-105'>
                             <img src={projects.image} alt={projects.name} className='rounded-t-md  w-full object-cover mb-4 h-48 border-1 border-teal-300' />
                             <h3 className=' bg-gradient-to-r from-gray-600 to-pink-600 bg-clip-text  text-transparent'>{projects.name}</h3>
                             <p className=' bg-gradient-to-r from-yellow-600 to-pink-600 bg-clip-text text-transparent '>{projects.tecno}</p>
-                            <div className='justify-between space-x-24 space-y-2.5 '>
+                            <div className='flex flex-row md:flex-row justify-between items-center space-y-2 md:space-y-0 md:space-x-4 px-4 pb-4'>
                                 <button className='bg-teal-900  rounded-lg hover:bg-amber-400  '><a href={projects.githubsource} target='./blank' className='px-2'>Source Code</a></button>
                                 <button className='bg-teal-900  rounded-lg hover:bg-amber-400 ' ><a href={projects.githublive} target='./blank' className='px-2'>View Live</a></button>
                             </div>

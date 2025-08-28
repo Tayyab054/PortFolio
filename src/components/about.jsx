@@ -3,7 +3,7 @@ import timage from '../assets/ta1.jpeg'
 
 function about() {
     return (
-
+        
         <div className='bg-black text-white px-2 py-20 lg:px-20  text-center'  id='About'>
             <div className='container mx-auto px-8 md:px-16 lg:px-24'>
                 <h2 className='text-xl font-bold text-center mb-12 sm:text-4xl' >About Me</h2>
