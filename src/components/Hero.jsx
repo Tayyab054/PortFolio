@@ -9,7 +9,7 @@ function Hero() {
       I am{" "}
       <span className="text-transparent bg-clip-text bg-gradient-to-r text-4xl from-green-400 to-blue-500">
         <Typewriter
-          words={["Full-Stack Developer", "Designer",]}
+          words={["Tayyab Ali","Full-Stack Developer", "Designer",]}
           loop={0}
           cursor
           cursorStyle="|"

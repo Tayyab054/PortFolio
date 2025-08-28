@@ -14,7 +14,6 @@ function App() {
       <About />
       <Services />
       <Projects />
-        <Services />
     </>
   )
 }
