@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-
 function Contact() {
     return (
     <div className='bg-black text-white px-2 py-20 lg:px-20 ' id='Contacts'>
