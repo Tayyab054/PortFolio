@@ -3,19 +3,20 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-    "homepage": "https://github.com/Tayyab054/portfolio.git",
+  "homepage": "https://github.com/Tayyab054/portfolio.git",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-      "predeploy": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.13",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "react-simple-typewriter": "^5.0.1",
     "tailwindcss": "^4.1.13"
   },
   "devDependencies": {
